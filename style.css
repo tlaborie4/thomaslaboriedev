@@ -1,0 +1,248 @@
+.container {
+  padding: 0 32px;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
+html {
+  background-color: black;
+}
+
+nav.navbar{
+  background-color: black;
+}
+
+button.navbar-toggler{
+  color: white;
+  background-color: red;
+}
+
+/* Section 1 : Accueil */
+
+section.accueil {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.accueil .partie1 {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section.accueil .partie1 h1 {
+  font-family: "Moderat";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+section.accueil .partie1 p {
+  font-family: "Moderat";
+  font-size: 21px;
+  margin-bottom: 34px;
+  font-weight: 200;
+}
+
+section.accueil .accueil_texte img {
+  width: 320px;
+  height: 400px;
+  border-radius: 550px;
+  border: 5px solid white;
+}
+
+.accueil_button {
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.decoaccueil1 {
+  height: 200px;
+  -webkit-filter: invert(100%);
+  margin-left: -150px;
+  margin-top: -790px;
+  transform: rotate3d(3, -1, 1, -0.1turn);
+}
+
+.decoaccueil1:nth-child(2) {
+  height: 200px;
+  -webkit-filter: invert(100%);
+  margin-left: 1100px;
+  margin-top: -590px;
+  transform: rotate3d(59, 42, -40, -0.1turn);
+}
+
+.partie1 a{
+  text-decoration: none;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+font-size: 17px;
+padding: 11px 16px;
+margin: 10px;
+}
+
+.navbar1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section 2 : Infos */
+
+section.infos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+section.infos h4{
+  text-align: center;
+  font-family: 'Moderat';
+  font-weight: 200;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 27px;
+}
+
+.carboninfos{
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.infos h3 {
+  font-family: "Moderat";
+  color: #34495e;
+  font-size: 38px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Section 3 : Réalisations */
+
+.réalisations{
+  text-align: center;
+  font-family: 'Moderat';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.réalisations h4{
+  font-size: 41px;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.réalisations p{
+  font-size: 21px;
+  color: white;
+  font-weight: 200;
+}
+
+.réalisations .creas{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.réalisations .creas img{
+
+  margin-top: 35px;
+  padding-bottom: 55px;
+  width: 15%;
+  justify-content: space-around;
+  padding-right: 70px;
+}
+
+
+
+
+
+/* Section 3 : Contact */
+
+section.contact {
+  min-height: 80vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+section.contact h4 {
+  padding-top: 75px;
+  font-size: 40px;
+  font-family: "Moderat";
+  font-weight: 200;
+}
+
+section.contact p {
+  padding-top: 17px;
+  font-size: 21px;
+  font-weight: 200;
+  font-family: "Moderat";
+  color: lightgray;
+}
+
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px white;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  background: #2980b9;
+}
