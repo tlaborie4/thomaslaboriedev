@@ -10,41 +10,35 @@
     
     <title>Site Portfolio v4</title>
 </head>
+<header class="header">
+  <nav class="navbar navbar-expand-lg fixed-top py-4">
+      <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Accueil<span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">A Propos</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Réalisations</a></li>
+              
+                  <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
 
 
 <body>
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   
-   
+  
     <section class="accueil">
+      
         <div class="container">
             <div class="partie1">
                 <div class="accueil_texte">
                   <img src="/assets/_DSC0549 choix NB.jpg" alt="">
-                    <h1>Bienvenue sur mon Portfolio !</h1>
+                    <h1><span>"</span> Bienvenue sur mon Portfolio !</h1>
                     <p>Passionné depuis tout petit par le monde de l'informatique, j'ai décidé en 2020 après un parcours professionnel dans le tourisme
                       de me lancer et vivre de ma passion. Je suis actuellement la formation développeur web d'OpenClassrooms et en recherche d'alternance
                       pendant 12 mois.
@@ -54,13 +48,13 @@
                 </div>     
             </div>
             <div class="partie2">
-              <img class="decoaccueil1" src="/assets/ordinateur-de-bureau.svg" alt="">
+              <img class="decoaccueil1" src="/assets/ordinateur-de-bureau.svg" alt="Thomas Laborie Développeur">
               <img class="decoaccueil1" src="/assets/ordinateur.svg" alt="">
 
 
             </div>   
         </div>
-    </section>
+   </section>
 
     <section class="infos">
 <h4>INFORMATIONS</h4>
@@ -100,4 +94,56 @@
 
 
 </body>
+
+<footer>
+  <div class="footer-wrap">
+    <div class="widgetFooter">
+      <h4 class="uppercase">Liens Utiles</h4>
+      <ul id="footerUsefulLink">
+       
+     
+        <li title="Gallery">
+          <span class="usefulLinksIcons">
+            <i class="far fa-images"></i>
+          </span>
+          <a>&nbsp;Réalisations</a>
+        </li>
+        <li title="Contact Us">
+          <span class="usefulLinksIcons">
+            <i class="far fa-envelope"></i>
+          </span>
+          <a href=".contact">&nbsp;Me Contacter</a>
+        </li>
+      </ul>
+    </div>
+   
+    <div class="widgetFooter">
+      <h4 class="uppercase">Réseaux Sociaux</h4>
+      <ul id="footerMediaLinks">
+      
+        <li class="media3"  title="Instagram">
+          <span class="mediaLinksIcons insta">
+            <i class="fab fa-instagram"></i>
+          </span>
+          <a class="insta">&nbsp;instagram</a>
+        </li>
+        <li class="media4" title="Github">
+          <span class="mediaLinksIcons git">
+            <i class="fab fa-github-alt"></i>
+          </span>
+          <a class="git">&nbsp;Github</a>
+        </li>
+      </ul>
+    </div>
+    <div class="widgetFooter">
+      <h4 class="uppercase">Coordonnées</h4>
+      <h3>Adresse : 2, route de Bournigal, 44190 CLISSON</h3>
+    </div>
+  </div>
+  <div class="footerCopy">
+    <div class="inb">
+      <p>Copyrights<sup>&copy;</sup>2021 Thomas Laborie <i class="fas fa-heart" style="color: red;"></i></p>
+    </div>
+  </div>
+</footer>
 </html>
