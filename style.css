@@ -1,437 +1,149 @@
+
+html{
+    background: url(/assets/bg2012.png) no-repeat fixed;
+    background-size: cover;
+}
+
+h1, h2{
+    color:white;
+}
+
 .container {
-  padding: 0 32px;
-  max-width: 1280px;
-  width: 100%;
-  margin: auto;
-}
-
-html {
-  background-color: black;
-}
-
-nav.navbar{
-  background-color: black;
-
-}
-
-
-/* Section 1 : Accueil */
-
-section.accueil {
-  -webkit-backdrop-filter: blur(50px) !important;
-  backdrop-filter: blur(40px) !important;
-  background: url(/assets/Canva\ -\ White\ Ceramic\ Vase\ Near\ Black\ Computer\ Keyboard.jpg) no-repeat fixed;
-  background-size: cover;
-  min-height: 100vh;
-  color: white;
-  left: 0px;
-  top: 0px;
-  display: flex;
-  flex-direction: column;
- 
-}
-
-section.accueil .partie1 {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-section.accueil .partie1 h1 {
-  font-family: "Moderat";
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 200%;
-}
-
-section.accueil .partie1 p {
-  font-family: "Moderat";
-  font-size: 21px;
-  margin-bottom: 34px;
-  font-weight: 200;
-}
-
-section.accueil .accueil_texte img {
-  width: 320px;
-  height: 400px;
-  border-radius: 550px;
-  border: 5px solid white;
-}
-
-.accueil_button {
-  gap: 24px;
-  display: flex;
-  flex-direction: row;
- 
-}
-
-.decoaccueil1 {
-  height: 200px;
-  -webkit-filter: invert(100%);
-  margin-left: -150px;
-  margin-top: -790px;
-  transform: rotate3d(3, -1, 1, -0.1turn);
-}
-
-.decoaccueil1:nth-child(2) {
-  height: 200px;
-  -webkit-filter: invert(100%);
-  margin-left: 1100px;
-  margin-top: -590px;
-  transform: rotate3d(59, 42, -40, -0.1turn);
-}
-
-.partie1 a{
-  text-decoration: none;
-  background: #34495e;
-  color: #fff;
-  padding: 12px 35px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.5s;
-font-size: 17px;
-padding: 11px 16px;
-margin: 10px;
-}
-
-.navbar1 {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Section 2 : Infos */
-
-section.infos {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-}
-
-section.infos h4{
-  text-align: center;
-  font-family: 'Moderat';
-  font-weight: 200;
-  color: white;
-  font-size: 40px;
-  padding-bottom: 77px;
-  padding-top: 97px;
-}
-
-span{
-  color: yellow;
-  font-size: 90px;
-}
-
-.carboninfos{
-  width: 80%;
-  margin: 0 auto;
-}
-
-section.infos h3 {
-  font-family: "Moderat";
-  color: #34495e;
-  font-size: 38px;
-  font-weight: 200;
-  display: flex;
-  justify-content: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-
-/* Section 3 : Réalisations */
-
-.réalisations{
-  text-align: center;
-  font-family: 'Moderat';
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-}
-
-.réalisations h4{
-  font-size: 41px;
-  font-weight: 200;
-  font-style: normal;
-  padding-top: 75px;
-  padding-bottom: 20px;
-  color: white;
-}
-
-.réalisations p{
-  font-size: 21px;
-  color: white;
-  font-weight: 200;
-}
-
-.réalisations .creas{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.réalisations .creas img{
-
-  margin-top: 35px;
-  padding-bottom: 55px;
-  width: 15%;
-  justify-content: space-around;
-  padding-right: 70px;
-}
-
-
-
-
-
-/* Section 3 : Contact */
-
-section.contact {
-  min-height: 80vh;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-section.contact h4 {
-  padding-top: 75px;
-  font-size: 40px;
-  font-family: "Moderat";
-  font-weight: 200;
-}
-
-section.contact p {
-  padding-top: 17px;
-  font-size: 21px;
-  font-weight: 200;
-  font-family: "Moderat";
-  color: lightgray;
-}
-
-
-.contact-form {
-  max-width: 600px;
-  margin: auto;
-  padding: 0 10px;
-  overflow: hidden;
-}
-
-.contact-form-text {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 16px 0;
-  border: 0;
-  background: #111;
-  padding: 20px 40px;
-  outline: none;
-  color: #ddd;
-  transition: 0.5s;
-}
-
-.contact-form-text:focus {
-  box-shadow: 0 0 10px 4px white;
-}
-
-textarea.contact-form-text {
-  resize: none;
-  height: 120px;
-}
-
-.contact-form-btn {
-  float: right;
-  border: 0;
-  background: #34495e;
-  color: #fff;
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.contact-form-btn:hover {
-  background: #2980b9;
-}
-
-
-.navbar {
-  transition: all 0.4s;
- 
-
-}
-
-
-
-.navbar .nav-link {
-  color: #fff;
-  font-family: 'Moderat';
-  font-weight: 100;
-  
-
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar .navbar-brand {
-  color: #fff;
-}
-
-
-/* Change navbar styling on scroll */
-.navbar.active {
-  background: #fff;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-  font-family: 'Moderat';
-}
-
-.navbar.active .nav-link {
-  color: #555;
-}
-
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
-  color: #555;
-  text-decoration: none;
-}
-
-.navbar.active .navbar-brand {
-  color: #555;
-}
-
-
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-  .navbar {
-      background: #fff;
-  }
-
-  .navbar .navbar-brand, .navbar .nav-link {
-      color: #555;
-  }
-}
-
-
-footer{
-  width: 100%;
-  min-height: 100px;
-  max-height: auto;
-  background-color: rgba(0,0,0,1);
-  margin-top: 1px;
-  clear: both;
-}
-footer .footer-wrap{
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  color: white;
-}
-
-
-
-.widgetFooter{
-  width: calc(65%/3);
-  height: auto;
-  float: left;
-  padding: 2.5%;
-  text-align: left;
-}
-
-
-
-
-h4.uppercase{
-  text-transform: uppercase;
-}
-ul#footerUsefulLink, ul#footerMediaLinks{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  line-height: 15px;
-  text-transform: capitalize;
-}
-ul#footerUsefulLink li, ul#footerMediaLinks li{
-  cursor: pointer;
-  /* transition: border-bottom 3s ease-in; */
-}
-ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
-   color: #00CED1;
-   /* border-bottom: 1px solid red; */
-}
-ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #3b5998; }
-ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { color: #1DA1F2; }
-ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { color: #ffc838; }
-ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { color: #f1502f; }
-
-div#footerLogo img{
-  width: 50%;
-  margin: 25% 0;
-}
-
-div.footerCopy{
-  clear: both;
-  color: white;
-  text-align: center;
-  padding-bottom: 5px;
-  border-top: 1px solid #ccc;
-}
-
-@media (max-width:800px){
-  footer .footer-wrap{
+    padding: 0 32px;
+    max-width: 1950px;
     width: 100%;
-    padding: 0;
+    margin: auto;
   }
-  .widgetFooter:not(:nth-of-type(2)){
-    width: calc(90%/2);
-    text-align: center;
-    font-size: 0.9em;
-  }
-  .widgetFooter:nth-of-type(2){
-    display: none;
-  }
-  div.footerCopy{
-    font-size: 0.8em;
-  }
-}
-@media (max-width:600px){
-  .widgetFooter:not(:nth-of-type(2)){
-    text-align: left;
-  }
-}
-@media (max-width:500px){
-  footer{
-    min-height: auto;
-  }
-  .widgetFooter:not(:nth-of-type(2)){
+
+
+  /* SECTION 1  : Accueil */
+
+  section.accueil{
+    background: url(/assets/backgroundaccueil.png) no-repeat;
+    min-height: 99vh;
+
     width: 100%;
-    padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ top: 50%;
+   
+
   }
-  ul#footerUsefulLink, ul#footerMediaLinks{
+
+  section.accueil .left_accueil{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(0,0,0,0.1);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.6)),to(transparent));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0.6),transparent);
+    background-image: linear-gradient(90deg,rgba(0,0,0,0.6),transparent);
+   
+    margin-left: -40px;
+padding-left: 190px;
+    height: 94vh;
+    padding-top: 1px;
+  }
+
+
+section.accueil  .accueil_text h1{
+      font-family: 'Moderat';
+      font-size: 43px;
+      font-weight: 100;
+      display: flex;
+      flex-direction: column;
+     padding-top: 300px;
+}
+
+  section.accueil  .accueil_text h2{
+    font-family: 'Moderat';
+    font-size: 24px;
+    font-weight: 100;
+    color: lightgray;
     display: flex;
 
-  }
-  ul#footerUsefulLink li, ul#footerMediaLinks li{
-    float: left;
-    flex: 1;
-    text-align: center;
-    font-size: 1.5em;
-  }
-  ul#footerUsefulLink li a, ul#footerMediaLinks li a{
-    display: none;
-  }
-  ul#footerUsefulLink li:hover, ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
-     color: white;
-     background-color: #00CED1;
-  }
-  ul#footerMediaLinks li.media1:hover, ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { background-color: #3b5998; color: white; }
-  ul#footerMediaLinks li.media2:hover, ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { background-color: #1DA1F2; color: white; }
-  ul#footerMediaLinks li.media3:hover, ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { background-color: #ffc838; color: white; }
-  ul#footerMediaLinks li.media4:hover, ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { background-color: #f1502f; color: white; }
 }
+
+.accueil_buttons{
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+    
+}
+
+.accueil_buttons a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Moderat';
+  display: flex;
+align-items: center;
+}
+
+.accueil_buttons a img{
+  color: white;
+  -webkit-filter: invert(100%);
+}
+
+
+.info,.forum{
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.info:hover{
+  color: white;
+  background-color: red;
+  -webkit-filter: invert(0%);
+  border-radius: 90px;
+}
+
+.menunav{
+  background-color: #b5b3c4;
+  opacity: 0.8;
+  min-height: 100vh;
+  width: 17%;
+  float: right;
+  margin-top: -977px;
+  margin-right: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menunav img{
+  margin-top: -750px;
+  height: 40%;
+  width: 40%;
+}
+
+
+
+
+
+/* Section 2 : Actualités Eurovision */
+
+section.actualite{
+  height: 70vh;
+  background-color: #f2eef3;
+}
+
+section.actualite h1{
+  color: #19305b;
+  font-family: 'Moderat';
+  font-size: 40px;
+  font-weight: 100;
+}
+
+
+Lastlings - Out Of Touch
+Maisy Kay - Blood Filled Tears
+
+
+
+
+
+
+
+
