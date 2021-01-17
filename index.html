@@ -3,28 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eurovision fr</title>
+<link rel="icon" href="/assets/logo3.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
+    <link href='to-top.css' rel='stylesheet' type='text/css'>
+    <script src="to-top.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    
+    
+    <title>Thomas Laborie - Développeur Web</title>
 </head>
-<body>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <section class="accueil">
-        <div class="container">
-         <div class="left_accueil">
-          <div class="accueil_text">
-            <h1>Bienvenue sur Eurovision-fr.net</h1>
-            <h2>Le premier site francophone dédié au concours de l'Eurovision.</h2>
-        </div>
-        <div class="accueil_buttons">
-          <a href="#">Les dernières infos<img class="info" src="/assets/info.svg" alt=""></a>
-          <a href="#">Accéder au forum<img class="forum" src="/assets/arrow-right-o.svg" alt=""></a> 
-         </div>  
-        </div>
+<header id="accueil">
+  <div class="menu-toggle" id="hamburger">
+      <i class="fas fa-bars"></i>
+  </div>
+  <div class="overlay"></div>
+  <div class="container">
+      <nav>
       
+          <ul>
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#infos2">A Propos</a></li>
+              <li><a href="#réalisations2">Réalisations</a></li>
+              <li><a href="#contact2">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="partie1">
+        <div class="accueil_texte">
+         <h1>Thomas Laborie</h1>
+         <img src="/assets/photoaccueilsite.jpg" alt="">
+            <h2>Développeur Web</h2>
+            <br>
+            <p>Passionné depuis tout petit par le monde de l'informatique, j'ai décidé en 2020 après un parcours professionnel dans le tourisme
+              de me lancer et vivre de ma passion. Je suis actuellement la formation développeur web d'OpenClassrooms et en recherche d'alternance
+              pendant 12 mois.
+            <p>
+              <br>
+              <a href="#infos2">Mon parcours</a>
+              <a href="#contact2">Me contacter</a>
+        </div>     
+    </div>
+    <div class="partie2">
+      <img class="decoaccueil1" src="/assets/ordinateur-de-bureau.svg" alt="Thomas Laborie Développeur">
+      <img class="decoaccueil1" src="/assets/ordinateur.svg" alt="">
+
+
+    </div>   
+  </div>
+</header>
+<body>
+ 
+  
+   
+
+    <section class="infos" id="infos2">
+<h4>A PROPOS</h4>
+        <img class="carboninfos" src="/assets/carbon.svg" alt="">
+     
     </section>
-    <section class="actualite">
-      <h1>ACTUALITE EUROVISION</h1>
+
+    <section class="réalisations" id="réalisations2">
+      <h4>REALISATIONS</h4>
+      <p>Comme indiqué précédemment, voici quelques uns des projets que j'ai réalisés ou auquels j'ai participé.</p>
+      <div class="creas">
+        
+        <img src="/assets/Logotype.svg"alt="">
+        <img src="/assets/logo3.png" href="https://qoveryapp-projet1.netlify.app/" alt="">
+      
+        
+      
+    
+      </div>
+
+     
     </section>
+
+    <section class="contact" id="contact2">
+      <h4>CONTACT</h4>
+      <p>Si vous souhaitez me contacter, utilisez le formulaire ci-dessous.</p>  
+       <form class="contact-form" action="index.html" method="POST">
+         <input type="text" class="contact-form-text" placeholder="Votre nom">
+         <input type="email" class="contact-form-text" placeholder="Votre email">
+         <input type="text" class="contact-form-text" placeholder="Votre téléphone">
+         <textarea type="submit" name="formcontact" class="contact-form-text" value="Send" cols="20" rows="4" placeholder="Votre message"></textarea>
+         <input type="submit" class="contact-form-btn" value="Envoyer">
+       </form>
+    </section>
+
+
+    <div id="scrollUp">
+      <a href="#top"><img src="assets/to_top.png"/></a>
+      </div>
 </body>
+
+
 </html>

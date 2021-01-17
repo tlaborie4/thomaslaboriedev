@@ -1,149 +1,476 @@
-
-html{
-    background: url(/assets/bg2012.png) no-repeat fixed;
-    background-size: cover;
-}
-
-h1, h2{
-    color:white;
-}
-
 .container {
-    padding: 0 32px;
-    max-width: 1950px;
-    width: 100%;
-    margin: auto;
-  }
-
-
-  /* SECTION 1  : Accueil */
-
-  section.accueil{
-    background: url(/assets/backgroundaccueil.png) no-repeat;
-    min-height: 99vh;
-
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
- top: 50%;
-   
-
-  }
-
-  section.accueil .left_accueil{
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    background-color: rgba(0,0,0,0.1);
-    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.6)),to(transparent));
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0.6),transparent);
-    background-image: linear-gradient(90deg,rgba(0,0,0,0.6),transparent);
-   
-    margin-left: -40px;
-padding-left: 190px;
-    height: 94vh;
-    padding-top: 1px;
-  }
-
-
-section.accueil  .accueil_text h1{
-      font-family: 'Moderat';
-      font-size: 43px;
-      font-weight: 100;
-      display: flex;
-      flex-direction: column;
-     padding-top: 300px;
+  padding: 0 32px;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
 }
 
-  section.accueil  .accueil_text h2{
-    font-family: 'Moderat';
-    font-size: 24px;
-    font-weight: 100;
-    color: lightgray;
-    display: flex;
-
-}
-
-.accueil_buttons{
-    display: flex;
-    gap: 80px;
-    margin-top: 40px;
-    
-}
-
-.accueil_buttons a{
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  font-family: 'Moderat';
-  display: flex;
-align-items: center;
-}
-
-.accueil_buttons a img{
-  color: white;
-  -webkit-filter: invert(100%);
+html {
+  background-color: black;
 }
 
 
-.info,.forum{
-  padding-left: 7px;
-  padding-top: 2px;
-}
 
-.info:hover{
-  color: white;
-  background-color: red;
-  -webkit-filter: invert(0%);
-  border-radius: 90px;
-}
+/* Section 1 : Accueil */
 
-.menunav{
-  background-color: #b5b3c4;
-  opacity: 0.8;
+
+
+header .partie1 {
+  -webkit-backdrop-filter: blur(50px) !important;
+  backdrop-filter: blur(5px) !important;
+  background-size: cover;
   min-height: 100vh;
-  width: 17%;
-  float: right;
-  margin-top: -977px;
-  margin-right: -40px;
+  color: white;
+ padding-top: 160px;
   display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header .partie1 h1 {
+  font-family: "Moderat";
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 200%;
+  animation: HeroSlideIn 1.5s forwards 0.2s ease;
+}
+
+header .partie1 h2 {
+  font-family: "Moderat";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 200%;
+  animation: HeroSlideIn 1.5s forwards 0.2s ease;
+}
+
+header .partie1 p {
+  font-family: "Moderat";
+  font-size: 17px;
+  margin-bottom: 34px;
+  font-weight: 200;
+  animation: HeroSlideIn 1.5s forwards 0.2s ease;
+}
+
+header .partie1 img{
+  border-radius: 250px;
+  animation: HeroSlideIn 1.5s forwards 0.2s ease;
+}
+
+
+header .accueil_button {
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.decoaccueil1 {
+  height: 100px;
+  -webkit-filter: invert(100%);
+  margin-left: -10px;
+  margin-top: -690px !important;
+  transform: rotate3d(3, -1, 1, -0.1turn);
+  position: absolute;
+}
+
+header .decoaccueil1:nth-child(2) {
+  height: 100px;
+  -webkit-filter: invert(100%);
+  margin-left: 1100px;
+  margin-top: -590px;
+  transform: rotate3d(59, 42, -40, -0.1turn);
+}
+
+.partie1 a{
+  text-decoration: none;
+  background:crimson;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+font-size: 15px;
+padding: 11px 21px;
+margin: 10px;
+font-family: "hk_grotesk";
+}
+
+.partie1 a:hover{
+  background-color: salmon;
+}
+
+
+
+
+/* Section 2 : Infos */
+
+section.infos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+section.infos h4{
+  text-align: center;
+  font-family: 'Moderat';
+  font-weight: 200;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 77px;
+  padding-top: 97px;
+}
+
+span{
+  color: yellow;
+  font-size: 90px;
+}
+
+.carboninfos{
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.infos h3 {
+  font-family: "Moderat";
+  color: #34495e;
+  font-size: 38px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Section 3 : Réalisations */
+
+.réalisations{
+  text-align: center;
+  font-family: 'Moderat';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.réalisations h4{
+  font-size: 41px;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.réalisations p{
+  font-size: 21px;
+  color: white;
+  font-weight: 200;
+}
+
+.réalisations .creas{
+  display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
+
 }
 
-.menunav img{
-  margin-top: -750px;
-  height: 40%;
-  width: 40%;
+.réalisations .creas img{
+
+  margin-top: 35px;
+  padding-bottom: 55px;
+  width: 15%;
+  justify-content: space-around;
+  padding-right: 70px;
 }
 
 
 
 
 
-/* Section 2 : Actualités Eurovision */
+/* Section 3 : Contact */
 
-section.actualite{
-  height: 70vh;
-  background-color: #f2eef3;
+section.contact {
+  min-height: 80vh;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-section.actualite h1{
-  color: #19305b;
-  font-family: 'Moderat';
+section.contact h4 {
+  padding-top: 75px;
   font-size: 40px;
-  font-weight: 100;
+  font-family: "Moderat";
+  font-weight: 200;
+}
+
+section.contact p {
+  padding-top: 17px;
+  font-size: 21px;
+  font-weight: 200;
+  font-family: "Moderat";
+  color: lightgray;
 }
 
 
-Lastlings - Out Of Touch
-Maisy Kay - Blood Filled Tears
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px white;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	font-family: "Roboto Cn", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #eee;
+}
+
+header{
+	width: 100%;
+  height: 100vh;
+  font-family: 'Moderat';
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url(/assets/Canva\ -\ White\ Ceramic\ Vase\ Near\ Black\ Computer\ Keyboard.jpg) center no-repeat;
+	background-size: cover;
+	position: relative;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(50px) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.container{
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.menu-toggle{
+	position: fixed;
+	top: 2.5rem;
+	right: 2.5rem;
+	color: #eeeeee;
+	font-size: 3rem;
+	cursor: pointer;
+	z-index: 1000;
+	display: none;
+}
+
+nav{
+	padding-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+}
+
+li{
+  padding-right: 35px;
+}
 
 
 
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+	transform: translateX(100rem);
+	animation: slideIn .5s forwards;
+}
+
+nav ul li:nth-child(1){
+	animation-delay: 0s;
+}
+
+nav ul li:nth-child(2){
+	animation-delay: .5s;
+}
+
+nav ul li:nth-child(3){
+	animation-delay: 1s;
+}
+
+nav ul li:nth-child(4){
+	animation-delay: 1.5s;
+}
+
+nav ul li a{
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+nav ul li a:last-child{
+	margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: crimson;
+	left: 0;
+	transform: scaleX(0);
+	transition: all .5s;
+}
+
+nav ul li a::before{
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after{
+	bottom: 0;
+	transform-origin: right;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,.95);
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	transition: opacity 650ms;
+	transform: scale(0);
+	opacity: 0;
+  display: none;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+  transform: scaleX(1);
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes slideIn {
+	from{
+
+	}
+	to{
+		transform: translateX(0);
+	}
+}
 
 
+@keyframes animperso {
+	from{
+  transform: translateY(100);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
 
+@keyframes HeroSlideIn {
+	0% {
+		transform: translateY(-250%);
+		opacity: 0;
+   }
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+   }
+}
 
+@media screen and (max-width: 700px){
 
+	.menu-toggle{
+		display: block;
+	}
+
+	nav{
+		padding-top: 0;
+		display: none;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 100vh;
+		text-align: center;
+	}
+
+	nav ul{
+		flex-direction: column;
+	}
+
+	nav ul li{
+		margin-top: 5rem;
+	}
+
+	nav ul li a{
+		margin: 0;
+		font-size: 2.5rem;
+	}
+
+	.brand{
+		font-size: 5rem;
+	}
+  
+  .overlay.menu-open,
+  nav.menu-open{
+	  display: flex;
+	  transform: scale(1);
+	  opacity: 1;
+  }
+  
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background:crimson;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  background :salmon;
+}
+
+#scrollUp
+{
+
+  position: fixed;
+  z-index: 10;
+}
