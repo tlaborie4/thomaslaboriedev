@@ -83,6 +83,9 @@ header .decoaccueil1:nth-child(2) {
   transform: rotate3d(59, 42, -40, -0.1turn);
 }
 
+
+
+
 .partie1 a{
   text-decoration: none;
   background:crimson;
@@ -263,7 +266,7 @@ header{
 	width: 100%;
   height: 100vh;
   font-family: 'Moderat';
-	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url(/assets/Canva\ -\ White\ Ceramic\ Vase\ Near\ Black\ Computer\ Keyboard.jpg) center no-repeat;
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("/assets/backgroundaccueilsite.png") center no-repeat;
 	background-size: cover;
 	position: relative;
   overflow: hidden;
