@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="/assets/logo3.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fonts.css">
-    <link href='to-top.css' rel='stylesheet' type='text/css'>
-    <script src="to-top.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    
-    
+    <link rel="stylesheet" href="fonts.css">  
     <title>Thomas Laborie - Développeur Web</title>
 </head>
 <header id="accueil">
@@ -47,7 +42,6 @@
       <img class="decoaccueil1" src="/assets/ordinateur-de-bureau.svg" alt="Thomas Laborie Développeur">
       <img class="decoaccueil1" src="/assets/ordinateur.svg" alt="">
 
-
     </div>   
   </div>
 </header>
@@ -67,10 +61,10 @@
       <p>Comme indiqué précédemment, voici quelques uns des projets que j'ai réalisés ou auquels j'ai participé.</p>
       <div class="creas">
         
-        <img src="/assets/Logotype.svg"alt="">
-        <img src="/assets/logo3.png" href="https://qoveryapp-projet1.netlify.app/" alt="">
+        <a href="https://qoveryapp-projet1.netlify.app/"><img src="/assets/Logotype.svg" alt=""></a>
+        <a href=" http://forum.eurovision-fr.net/"><img src="/assets/logo3.png" alt=""></a>
       
-        
+       
       
     
       </div>
@@ -81,11 +75,11 @@
     <section class="contact" id="contact2">
       <h4>CONTACT</h4>
       <p>Si vous souhaitez me contacter, utilisez le formulaire ci-dessous.</p>  
-       <form class="contact-form" action="index.html" method="POST">
-         <input type="text" class="contact-form-text" placeholder="Votre nom">
-         <input type="email" class="contact-form-text" placeholder="Votre email">
-         <input type="text" class="contact-form-text" placeholder="Votre téléphone">
-         <textarea type="submit" name="formcontact" class="contact-form-text" value="Send" cols="20" rows="4" placeholder="Votre message"></textarea>
+       <form class="contact-form" action="https://formsubmit.co/thomas.laborie24@gmail.com" method="POST" name="contactezmoi">
+         <input type="text" name="nom" class="contact-form-text" placeholder="Votre nom">
+         <input type="email" name="email" class="contact-form-text" placeholder="Votre email">
+         <input type="text" name="telephone" class="contact-form-text" placeholder="Votre téléphone">
+         <textarea type="submit" id="zonetexte" name="formcontact" class="contact-form-text" value="Send" cols="20" rows="4" placeholder="Votre message"></textarea>
          <input type="submit" class="contact-form-btn" value="Envoyer">
        </form>
     </section>
@@ -94,6 +88,8 @@
     <div id="scrollUp">
       <a href="#top"><img src="assets/to_top.png"/></a>
       </div>
+
+      <script src="script.js"></script>
 </body>
 
 
