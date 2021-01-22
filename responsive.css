@@ -1,0 +1,67 @@
+@media screen and (max-width: 488px){
+    
+
+
+    header#accueil .partie1{
+        padding-top: 75px;
+    }
+
+    header#accueil .partie1 h1{
+        font-size: 26px;
+    }
+
+    header#accueil .partie1 h2{
+        font-size: 20px;
+    }
+
+    header#accueil .partie1 p{
+        font-size: 14px;
+    }
+
+    header .accueil_texte a {
+        gap: 44px;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+      }
+
+      header .accueil_texte img {
+        width: 70%;
+      }
+
+      header .boutonsaccueil{
+       margin-top: -60px;
+      }
+
+      section.infos h4,
+      section.réalisations h4,
+      section.contact h4{
+          font-size: 24px;
+}
+
+section.réalisations p,
+section.contact p{
+    font-size: 14px;
+}
+
+.réalisations .creas{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .réalisations .creas img {
+    margin-top: 25px;
+    padding-bottom: 1px;
+    width: 100%;
+    
+    display: flex;
+}
+
+section.infos{
+    min-height: 60vh;
+}
+
+
+}
