@@ -179,3 +179,12 @@ section.infos{
 
 }
 
+
+@media screen and (max-width: 400px){
+    
+
+    header{
+        min-height: 87vh !important;
+    }
+
+}
