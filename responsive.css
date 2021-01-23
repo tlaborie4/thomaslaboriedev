@@ -187,4 +187,8 @@ section.infos{
         min-height: 87vh !important;
     }
 
+  .accueil_texte{
+      margin-top: -108px;
+  }
+
 }
