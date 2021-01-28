@@ -23,6 +23,11 @@
    .contact{
        margin-top: 70px;
    }
+
+   header#accueil .partie1 p{
+   margin-left: 220px;
+   margin-right: 220px;
+}
    
    }
 
@@ -99,6 +104,7 @@
     }
 
    
+   
        header#accueil .partie1 h1{
            font-size: 26px;
        }
@@ -113,7 +119,7 @@
    
        header .accueil_texte a {
            gap: 44px;
-           display: flex;
+           margin-top: 13px;
            flex-direction: column;
            font-size: 14px;
          }
@@ -123,8 +129,11 @@
          }
    
          header .boutonsaccueil{
-          margin-top: -60px;
+          margin-top: -50px;
          }
+
+      
+     
    
          section.infos h4,
          section.réalisations h4,
@@ -185,8 +194,8 @@
     }
 
     header .accueil_texte a {
-        gap: 44px;
-        display: flex;
+        gap: 14px;
+    display: flex;
         flex-direction: column;
         font-size: 14px;
       }
