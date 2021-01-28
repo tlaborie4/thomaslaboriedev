@@ -24,9 +24,13 @@
        margin-top: 70px;
    }
 
+   header#accueil .partie1{
+       margin-top: -30px;
+   }
+
    header#accueil .partie1 p{
-   margin-left: 220px;
-   margin-right: 220px;
+   margin-left: 150px;
+   margin-right: 150px;
 }
    
    }
