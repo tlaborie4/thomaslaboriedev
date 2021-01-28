@@ -12,6 +12,17 @@
    .boutonsaccueil{
        margin-top: -45px;
    }
+
+   .réalisations{
+       min-height: 50vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .contact{
+       margin-top: 70px;
+   }
    
    }
 
@@ -30,6 +41,11 @@
    .boutonsaccueil{
        margin-top: -45px;
    }
+
+   section.infos{
+    min-height: 70vh;
+}
+
    
    }
 
@@ -38,7 +54,7 @@
 @media screen and (max-width: 1000px){
     
     header{
-        min-height: 88vh;
+        min-height: 118vh;
     }
    
     .accueil_texte{
@@ -48,20 +64,38 @@
    .boutonsaccueil{
        margin-top: -45px;
    }
+
+   section.infos{
+    min-height: 65vh;
+}
+
+  .réalisations p,
+  .contact p{
+      box-sizing: border-box;
+      padding: 0 32px;
+  }
+
    
    }
 
-
+@media screen and (max-width: 821px){
+    nav ul{
+        display: flex;
+        font-size: 14px;
+        text-transform: lowercase;
+      }
+      
+}
 
 
 @media screen and (max-width: 700px){
     
     header{
-        min-height: 88vh;
+        min-height: 108vh;
     }
    
     header#accueil .partie1{
-        padding-top: 205px;
+        padding-top: 255px;
     }
 
    
@@ -119,7 +153,7 @@
    }
    
    section.infos{
-       min-height: 60vh;
+       min-height: 45vh;
    }
    
    
@@ -130,12 +164,12 @@
     
 
     header{
-        min-height: 87vh !important;
+        min-height: 107vh !important;
     }
 
 
     header#accueil .partie1{
-        padding-top: 205px;
+        padding-top: 255px;
     }
 
     header#accueil .partie1 h1{
@@ -192,7 +226,7 @@ section.contact p{
 }
 
 section.infos{
-    min-height: 60vh;
+    min-height: 40vh;
 }
 
 
@@ -203,7 +237,7 @@ section.infos{
     
 
     header{
-        min-height: 87vh !important;
+        min-height: 107vh !important;
     }
 
   .accueil_texte{

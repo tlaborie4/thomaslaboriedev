@@ -9,15 +9,30 @@ html {
   background-color: black;
 }
 
+#topBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
 
+#topBtn:hover{
+  border: none;
+}
 
 /* Section 1 : Accueil */
 
 
 
 header .partie1 {
-  -webkit-backdrop-filter: blur(50px) !important;
-  backdrop-filter: blur(5px) !important;
+ 
   background-size: cover;
   min-height: 100vh;
   color: white;
@@ -156,6 +171,7 @@ section.infos h3 {
   background-color: black;
   display: flex;
   flex-direction: column;
+ 
 }
 
 .réalisations h4{
@@ -308,7 +324,7 @@ li{
 
 
 nav ul{
-	display: flex;
+  display: flex;
 }
 
 nav ul li{
@@ -353,7 +369,7 @@ nav ul li a::after{
 	background-color: crimson;
 	left: 0;
 	transform: scaleX(0);
-	transition: all .5s;
+  transition: all .5s;
 }
 
 nav ul li a::before{
@@ -451,10 +467,42 @@ nav ul li a:hover::after{
   
   .overlay.menu-open,
   nav.menu-open{
-	  display: flex;
-	  transform: scale(1);
-	  opacity: 1;
+    display: flex;
+    flex-direction: row;
+    transform: scale(1);
+align-items: center;
+position: absolute;
+justify-content: center;
+    opacity: 1;
+    height: 140px;
+    width: 85%;
   }
+  
+nav.menu-open ul li {
+  font-size: 25px !important;
+  margin: -7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  
+
+}
+nav.menu-open ul li a {
+  font-size: 15px !important;
+  margin: 4px;
+}
+
+.overlay.menu-open{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
   
 }
 .contact-form-btn {
